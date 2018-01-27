@@ -1,8 +1,8 @@
-# File Tree
+# 파일 구조
 
-### During development
+### 개발하면서 볼 수 있는 파일들
 
-**Note**: Some files/folders may differ based on the settings chosen during `vue-cli` scaffolding.
+**주의**: 일부 파일 / 폴더는 `vue-cli`의 초기 설정에서 선택한 옵션에 따라 다를 수 있다는 점을 참고하시기 바랍니다.
 
 ```
 my-project
@@ -44,7 +44,7 @@ my-project
 └─ README.md
 ```
 
-#### Production builds
+#### 최종으로 앱을 빌드 하고 나서의 파일 구조
 
 ```
 app.asar
@@ -58,9 +58,4 @@ app.asar
 └─ package.json
 ```
 
-As you can probably tell, almost everything is stripped down in final production builds. This is almost mandatory when distributing electron apps, as you do not want your users to download bloated software with a large file size.
-
-
-
-
-
+여러분이 볼 수 있듯이, 많은 파일들이 최종적으로 앱을 제작할때 제거됩니다. 사용자가 용량이 큰 소프트웨어를 다운로드하는 것을 꺼려하기 때문에 앱을 배포할 때는 거의 필수적으로 해야합니다.

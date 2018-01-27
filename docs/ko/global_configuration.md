@@ -1,25 +1,27 @@
-# Global Configuration
+# 전역 구성
 
-electron-vue uses the [webpack](https://github.com/webpack/webpack) module loader system for pre-processing, bundling, and building your app. The default settings are rather common and should meet most of your needs. An additional `config.js` is provided in the root directory for quick adjustments. Further customization can be made by directly adjusting `webpack.main.config.js` and `webpack.renderer.config.js`.
+electron-vue는 전처리, 번들링, 그리고 앱을 빌드할 때 [webpack](https://github.com/webpack/webpack)을 사용합니다. 기본 설정은 일반적인 것이므로 대부분의 요구 사항을 충족해야합니다. 빠른 수정을 위해 루트 디렉토리에 `confing.js`가 생깁니다. 
+`webpack.main.config.js`와 `webpack.renderer.config.js`를 직접 수정함으로써 원하는 대로 커스터마이징을 할 수 있습니다.
 
 #### `config.js`
-**Note**: Some options may differ based on the settings choosen during `vue-cli` scaffolding.
+**참고**: 일부 옵션은 `vue-cli` 초기설정에 따라 다를 수 있으니 유의하시기 바랍니다.
+Some options may differ based on the settings choosen during `vue-cli` scaffolding.
 
 ```js
 {
-  // Name of electron app
-  // Will be used in production builds
+  // electron 애플리케이션의 이름
+  // 프로덕션 빌드에 사용됩니다.
   name: 'app',
 
-  // Use ESLint
-  // Further changes can be made in `.eslintrc.js`
+  // ESLint 사용 유무
+  // `.eslintrc.js`에서 더 많은 변경이 가능합니다.
   eslint: true,
 
-  // webpack-dev-server port
+  // webpack-dev-server의 포트
   port: 9080,
 
-  // electron-packager options
-  // See `Building you app` for more info
+  // electron-packager 옵션
+  // `당신의 앱을 만들어보세요!(building_your_app)`에서 더 많은 정보를 볼 수 있습니다.
   building: {
     arch: 'x64',
     asar: true,
