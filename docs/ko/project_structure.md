@@ -1,8 +1,8 @@
-# Project Structure
+# 프로젝트 구조
 
-When it comes to making electron apps, project structure is a little different. If you have used the official [`vuejs-templates/webpack`](https://github.com/vuejs-templates/webpack) setup before, then the structure should feel quite familiar. The documentation in this section attempts to explain a general overview of how the boilerplate works and the differences when your application in built.
+electron 애플리케이션을 만들때, 프로젝트 구조가 조금 다릅니다. 만약 공식적인 [`vuejs-templates/webpack`](https://github.com/vuejs-templates/webpack)을 사용한다면 설치하기 전에, 그 구조에 대하여 익숙해져야할 것입니다. 이 부분에서는 boilerplate의 작동 방식과 빌드 시에 다른 점에 대하여 설명합니다.
 
-### Single `package.json` Setup
+### 싱글 `package.json` 설정
 
 There was a time not too long ago where a two `package.json` setup was neccessary, but thanks to efforts from [@electron-userland](https://github.com/electron-userland), both [`electron-packager`](https://github.com/electron-userland/electron-packager) and [`electron-builder`](https://github.com/electron-userland/electron-builder) now fully support a single `package.json` setup.
 
