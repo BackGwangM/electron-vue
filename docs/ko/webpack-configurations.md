@@ -1,6 +1,6 @@
 # Webpack Configurations
 
-electron-vue는 `.electron-vue/` 디렉토리에있는 세 개의 webpack 구성 파일로 압축되어 제공됩니다. `web` 출력을 선택적으로 사용하는 것 외에도, `main`과 `renderer`의 설정은 비슷합니다. Both make use of `babel-preset-env` to target `node@7` features, use `babili`, and treat all modules as `externals`.
+electron-vue는 `.electron-vue/` 디렉토리에있는 세 개의 webpack 구성 파일로 압축되어 제공됩니다. `web` 출력을 선택적으로 사용하는 것 외에도, `main`과 `renderer`의 설정은 비슷합니다. 두 설정 모두 `node@7`의 기능을 대상으로 `babili-preset-env`를 사용하고 `babili`을 사용하며 모든 모듈을 `externals`로 취급합니다.
 
 ### `.electron-vue/webpack.main.config.js`
 
